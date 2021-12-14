@@ -48,7 +48,7 @@
     "@semantic-release/release-notes-generator": "^10.0.3",
     "@types/node": "^16.10.5",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.0.0",
+    "@typescript-eslint/parser": "^5.7.0",
     "@vercel/ncc": "^0.31.1",
     "all-contributors-cli": "^6.20.0",
     "commitizen": "^4.2.4",
