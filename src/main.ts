@@ -9,6 +9,7 @@ async function run(): Promise<void> {
   let githubCommunicator: GithubCommunicator;
   try {
     const githubToken = getInput('token');
+    const reviewerToken = getInput('reviewerToken');
     const hotfixAgainstBranch = getInput('hotfixAgainstBranch');
     const openPrAgainstBranch = getInput('openPrAgainstBranch');
     const jobName = getInput('jobName');
@@ -29,6 +30,7 @@ async function run(): Promise<void> {
 
     githubCommunicator = new GithubCommunicator({
       githubToken,
+      reviewerToken,
       hotfixAgainstBranch,
       openPrAgainstBranch,
       jobName,
