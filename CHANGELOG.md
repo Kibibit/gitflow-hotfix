@@ -1,5 +1,13 @@
 achievibit changelog
 
+## [1.3.1](https://github.com/kibibit/gitflow-hotfix/compare/v1.3.0...v1.3.1) (2022-08-09)
+
+
+### Bug Fixes
+
+* **pr:** make reviewer a different token input ([d42c8b5](https://github.com/kibibit/gitflow-hotfix/commit/d42c8b51e21bba52922d37f8d9b11f76c2ca61f8))
+* **input:** pass reviewerToken into the main process ([9eb3bba](https://github.com/kibibit/gitflow-hotfix/commit/9eb3bba6b27507ba8a1f99cc71f168aee208856a))
+
 # [1.3.0](https://github.com/kibibit/gitflow-hotfix/compare/v1.2.1...v1.3.0) (2022-08-09)
 
 
