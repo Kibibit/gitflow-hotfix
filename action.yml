@@ -8,6 +8,9 @@ inputs:
   token: # change this
     required: true
     description: github token to run the action against
+  reviewerToken:
+    required: false
+    description: github token to use for the review approval
   hotfixAgainstBranch:
     required: true
     description: 1st branch (usually master\main)
