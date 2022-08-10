@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Auto Hotfix If Needed
-        uses: Kibibit/gitflow-hotfix@v1.0.0
+        uses: Kibibit/gitflow-hotfix@v1.3.1
         with:
           token: ${{ secrets.BOT_TOKEN }}
           hotfixAgainstBranch: main
