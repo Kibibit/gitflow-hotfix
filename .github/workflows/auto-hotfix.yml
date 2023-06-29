@@ -2,16 +2,20 @@ name: Auto Hotfix If Needed
 
 on:
   pull_request:
+    types: [ closed ]
     branches: [ main ]
 
 jobs:
-  build:
+  git-flow-finish-hotfix:
+    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'hotfix/')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Auto Hotfix If Needed
-        uses: Kibibit/gitflow-hotfix@v1.0.0
+      - uses: actions/checkout@v3
+      - name: Merge hotfix branch into beta branch
+        uses: Kibibit/gitflow-hotfix@v1.4.0-beta.1
         with:
           token: ${{ secrets.BOT_TOKEN }}
+          reviewerToken: ${{ github.token }}
           hotfixAgainstBranch: main
           openPrAgainstBranch: beta
+          jobName: git-flow-finish-hotfix
