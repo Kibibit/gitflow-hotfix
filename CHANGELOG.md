@@ -1,5 +1,13 @@
 achievibit changelog
 
+# [1.4.0-beta.2](https://github.com/kibibit/gitflow-hotfix/compare/v1.4.0-beta.1...v1.4.0-beta.2) (2023-06-29)
+
+
+### Bug Fixes
+
+* **input:** pass reviewerToken into the main process ([9eb3bba](https://github.com/kibibit/gitflow-hotfix/commit/9eb3bba6b27507ba8a1f99cc71f168aee208856a))
+* **action:** test gitflow hotfix ([abcc0a0](https://github.com/kibibit/gitflow-hotfix/commit/abcc0a02c7ae642e7aee45dc05e069e0164462df))
+
 # [1.4.0-beta.1](https://github.com/kibibit/gitflow-hotfix/compare/v1.3.1-beta.1...v1.4.0-beta.1) (2023-06-29)
 
 
