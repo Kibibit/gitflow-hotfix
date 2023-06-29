@@ -1,5 +1,17 @@
 achievibit changelog
 
+# [1.4.0-beta.1](https://github.com/kibibit/gitflow-hotfix/compare/v1.3.1-beta.1...v1.4.0-beta.1) (2023-06-29)
+
+
+### Bug Fixes
+
+* **actions:** fix pipelines to use node 16 and ubuntu latest ([c59edad](https://github.com/kibibit/gitflow-hotfix/commit/c59edad4cbef5bf13d6544a3bd4e894089984256))
+
+
+### Features
+
+* **action:** update action to run with node16 ([7ed8ad0](https://github.com/kibibit/gitflow-hotfix/commit/7ed8ad0f90a2b56da7c5d199e67472ae200153ab))
+
 ## [1.3.1-beta.1](https://github.com/kibibit/gitflow-hotfix/compare/v1.3.0...v1.3.1-beta.1) (2022-08-09)
 
 
