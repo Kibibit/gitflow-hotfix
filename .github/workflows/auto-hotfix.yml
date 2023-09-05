@@ -10,7 +10,7 @@ jobs:
     if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'hotfix/')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Merge hotfix branch into beta branch
         uses: Kibibit/gitflow-hotfix@v1.4.0-beta.1
         with:
