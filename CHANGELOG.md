@@ -14,6 +14,20 @@ achievibit changelog
 
 * **action:** update action to run on node 20 ([572448a](https://github.com/kibibit/gitflow-hotfix/commit/572448a8a8ba71867792575274cb9b983d19b1b8))
 
+# [1.4.0](https://github.com/kibibit/gitflow-hotfix/compare/v1.3.1...v1.4.0) (2023-06-29)
+
+
+### Bug Fixes
+
+* **actions:** fix pipelines to use node 16 and ubuntu latest ([c59edad](https://github.com/kibibit/gitflow-hotfix/commit/c59edad4cbef5bf13d6544a3bd4e894089984256))
+* **input:** pass reviewerToken into the main process ([ebc2b89](https://github.com/kibibit/gitflow-hotfix/commit/ebc2b8939df9a79d8c535efff7b3db9d8939d81c))
+* **action:** test gitflow hotfix ([abcc0a0](https://github.com/kibibit/gitflow-hotfix/commit/abcc0a02c7ae642e7aee45dc05e069e0164462df))
+
+
+### Features
+
+* **action:** update action to run with node16 ([7ed8ad0](https://github.com/kibibit/gitflow-hotfix/commit/7ed8ad0f90a2b56da7c5d199e67472ae200153ab))
+
 # [1.4.0-beta.2](https://github.com/kibibit/gitflow-hotfix/compare/v1.4.0-beta.1...v1.4.0-beta.2) (2023-06-29)
 
 
