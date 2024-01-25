@@ -1,5 +1,19 @@
 achievibit changelog
 
+# [1.4.0-beta.3](https://github.com/kibibit/gitflow-hotfix/compare/v1.4.0-beta.2...v1.4.0-beta.3) (2024-01-25)
+
+
+### Bug Fixes
+
+* **security:** run npm audit fix ([abc4fe6](https://github.com/kibibit/gitflow-hotfix/commit/abc4fe678b4f45401e1de11d4bdae2e069311904))
+* **security:** update all dependencies to latest ([8b09bbb](https://github.com/kibibit/gitflow-hotfix/commit/8b09bbb26bcef6ad59cfa20f7c25e5a6bb69347e))
+* **actions:** update pipelines to node 20 as well ([819978e](https://github.com/kibibit/gitflow-hotfix/commit/819978e993ed88e532801150d5d46623cc9589a6))
+
+
+### Features
+
+* **action:** update action to run on node 20 ([572448a](https://github.com/kibibit/gitflow-hotfix/commit/572448a8a8ba71867792575274cb9b983d19b1b8))
+
 # [1.4.0](https://github.com/kibibit/gitflow-hotfix/compare/v1.3.1...v1.4.0) (2023-06-29)
 
 
