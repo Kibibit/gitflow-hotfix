@@ -33,5 +33,5 @@ inputs:
     required: false
     description: prefix to test branch names against (default is 'hotfix/')
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
